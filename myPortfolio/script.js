@@ -29,6 +29,12 @@ $(document).ready(function (){
         backSpeed: 60,
         loop:true
     });
+    var typed = new Typed(".typing3",{
+        strings: ["GitHub !"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop:true
+    });
     // toggle menu/navbar script
     $('.menu-btn').click(function (){
         $('.navbar .menu').toggleClass("active");

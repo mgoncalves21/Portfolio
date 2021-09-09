@@ -247,7 +247,7 @@ section .title{
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 100px;
 
 }
@@ -256,7 +256,7 @@ section .title::before{
     position: absolute;
     width: 180px;
     height: 3px;
-    bottom: -15px;
+    bottom: -20px;
     left: 50%;
     background: black;
     transform: translateX(-50%);
@@ -265,11 +265,11 @@ section .title::before{
 section .title::After{
 
     position: absolute;
-    bottom: -30px;
+    bottom: -32px;
     left: 50%;
     font-size: 20px;
     color: crimson;
-    padding: 5px;
+    padding: 3px;
     background: white;
     transform: translateX(-50%);
     font-family: 'Ubuntu', sans-serif;
@@ -316,7 +316,7 @@ h3 span{
 
 .skills{
     background-color: #111;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .skills-content{
@@ -394,10 +394,10 @@ h3 span{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 10%;
+    width: 50%;
 }
 .skills-content .right .php::before{
-    width: 0%;
+    width: 10%;
 }
 .skills-content .right .mysql::before{
     width: 30%;
@@ -408,9 +408,22 @@ h3 span{
 .skills .title::before{
     background: white;
 }
-.contact .title::after{
-    content: "get in touch";
+.contact{
+    background-color: #111;
 }
+.contact .title{
+    padding-top: 20px;
+}
+.contact .title::after{
+    content: "what i know";
+}
+.contact .title::after{
+    background: #111;
+}
+.contact .title::before{
+    background: white;
+}
+
 .about, .skills, .contact,footer{
     font-family: 'poppins', sans-serif;
 }
@@ -420,7 +433,7 @@ h3 span{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    color: black;
+    color: #ffffff;
     padding-bottom: 80px;
 }
 .contact .contact-content .column{
@@ -453,7 +466,7 @@ h3 span{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #cecece;
 }
 .contact .right form .fields{
     display: flex;
@@ -468,7 +481,7 @@ h3 span{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid #a2a2a2;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -508,6 +521,18 @@ h3 span{
     padding-top: 10px;
     resize: none;
 }
+.contact h2{
+    color: white;
+}
+/*Projet section*/
+.project .title::after{
+    content: "Learning session";
+}
+.projectContent{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+
 /*Footer section*/
 footer{
     background: #111;
@@ -522,3 +547,4 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
