@@ -241,6 +241,10 @@ html{
     font-family: 'poppins', sans-serif;
 }
 
+.describe span #redcolor{
+    color: #ff253a;
+    font-weight: bold;
+}
 section .title{
     font-size: 40px;
     font-weight: 500;
@@ -293,7 +297,12 @@ h3 span{
 
 }
 .describe{
-    text-align: justify;
+    padding-top: 25px;
+
+}
+.describe span #para{
+
+
 }
 .aboutText a{
     text-align: justify;
@@ -306,6 +315,8 @@ h3 span{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+    justify-content: center;
+
 }
 .aboutText a:hover{
     color:crimson;
@@ -373,41 +384,144 @@ h3 span{
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-.skills-content .right .html::before{
-    width: 70%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
-    width: 50%;
-}
-.skills-content .right .php::before{
-    width: 10%;
-}
-.skills-content .right .mysql::before{
-    width: 30%;
-}
+
 .skills .title::after{
     background: #111;
 }
 .skills .title::before{
     background: white;
 }
+
+.skills-list{
+    list-style: none;
+
+}
+
+.skill-item{
+
+    display: inline-block;
+    margin-right: 50px;
+
+
+}
+.skill-item #html{
+    background: #E44D26;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #htmlICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+
+.skill-item #js{
+    background: #EAD41C;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #jsICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+    border-radius: 50%;
+
+}
+
+.skill-item #css{
+    background: #2449D8;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #cssICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+.skill-item #angular{
+    background: #B9002D;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #angularICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+.skill-item #php{
+    background: #ff00f4;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #phpICO{
+    position: relative;
+    top: 18px;
+    width: 50px;
+    height: 50px;
+
+
+}
+.skill-item #webstorm{
+    background: #0AACC7;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #webstormICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+.skill-item #git{
+    background: #ff1600;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #gitICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+.skill-item #azure{
+    background: #0082CB;
+    border-radius: 2px;
+    font-size: 15px;
+
+}
+.skill-item #azureICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+.skill-item #notion{
+    background: #00ff09;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #notionICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+.skill-item #teams{
+    background: #5C61B1;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.skill-item #teamsICO{
+    position: relative;
+    top: 18px;
+    right: 5px;
+
+}
+
+
 .contact{
     background-color: #111;
 }
