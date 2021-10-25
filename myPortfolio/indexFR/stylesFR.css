@@ -102,7 +102,7 @@ html{
 
 .home{
     display: flex;
-    background: url("img/835_programmer.jpg")no-repeat fixed center;
+    background: url("/myPortfolio/img/835_programmer.jpg")no-repeat fixed center;
     background-size: cover;
     height: 100vh;
     color: #000000;
